@@ -1,58 +1,58 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `http://vishalvignesh.com/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Vishal Vignesh S',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Vishal Vignesh | College Student`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Hey, hi! Welcome to my Site, I didn't know what to put in here, so I put in a neat portfolio. Feel free to take a look!`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@vishalvignesh15`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/vishalvignesh`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/vishalvigneshsreekrishnan/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm currently persuing my graduate degree in Network Engineering at University of Colorado, Boulder. I aspire to become a cloud network specialist in security and architecture.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Offline Payment Interface',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'An end-to-end encrypted offline payment mechanism, that allows users to transfer money without an internet connection, and automatically syncs with their bank account when they come online.',
+        link: '',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Road Irregularity Detector',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A full service consisting of a mobile app, and an online dashboard that records irregularities in roads and is logged. These logs can then be utilized to fix the roads.',
+        link: '',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Encryptique',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'An end-to-end file transfer application, that allows users to transfer files directly from system-to-system that supports multi file transfer and multiple recipients.',
+        link: '',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Mithi Software Technologies',
+        description: 'Cloud Infrastructure Engineer, July 2021 - July 2022',
+        link: 'https://www.mithi.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'IIT Madras, Internship',
+        description: 'Open Source Software Development, June 2020 - October 2020',
+        link: '',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Merit Software Services',
+        description: 'Data Processing Intern, June 2019 - July 2019',
+        link: 'https://www.meritdata-tech.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,17 +60,19 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Python, C, C++, Node.js, Express.js',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Certifications',
+        description:
+          'Google Cloud Fundamentals, Google Cloud Infrastructure: Foundation,Google Cloud Infrastructure: Design Process,  Google Cloud Infrastructure: Scaling and Automation,Google Cloud Infrastructure: Core Services, \n AWS Network Speciality (In Progress)',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), Google Cloud Platform, CI / CD, API design',
       },
+      
     ],
   },
   plugins: [
@@ -128,10 +130,10 @@ module.exports = {
         name: `devfolio`,
         short_name: `devfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        background_color: `#000000`,
+        theme_color: `#000000`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/test.png`,
       },
     },
   ],
