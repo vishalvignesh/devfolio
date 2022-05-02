@@ -1,3 +1,13 @@
+plugins: [
+  {
+    resolve: `gatsby-plugin-s3`,
+    options: {
+      bucketName: "my-website-bucket",
+      protocol: "http",
+      hostname: "www.vishalvignesh.com",
+    },
+  },
+]
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
