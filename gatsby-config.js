@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `http://vishalvignesh.com/`,
+    siteUrl: `https://portfolio-vishal.herokuapp.com/`,
     // Your Name
     name: 'Vishal Vignesh S',
     // Main Site Title
