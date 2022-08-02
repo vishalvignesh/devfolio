@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/vishalvigneshsreekrishnan/`,
     // Content of the About Me section
-    about: `I'm currently persuing my graduate degree in Network Engineering at University of Colorado, Boulder. I aspire to become a cloud network specialist in security and architecture.`,
+    about: `I'm currently pursuing my graduate degree in Network Engineering at University of Colorado, Boulder. I aspire to become a cloud network specialist in security and architecture.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
